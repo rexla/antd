@@ -18,6 +18,7 @@ import {
   Select,
   CheckIcon,
 } from "native-base";
+import City from "../components/city";
 
 // Start editing here, save and see your changes.
 export default function App() {
@@ -85,8 +86,8 @@ export default function App() {
         <Button variant="outline" colorScheme="coolGray">
           View Repo
         </Button>
-        <Example />
       </Link>
+      <Example />
     </Center>
   );
 }
